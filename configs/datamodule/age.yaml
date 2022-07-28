@@ -1,0 +1,7 @@
+_target_: src.datamodules.age_datamodule.AgeDataModule
+data_dir: ${paths.data_dir}
+batch_size: 6
+#train_val_test_split: [600, 200, 200]
+train_val_test_split: [10000, 10793, 10793]
+num_workers: 2
+pin_memory: True
